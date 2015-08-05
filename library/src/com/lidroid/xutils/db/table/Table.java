@@ -86,7 +86,7 @@ public class Table {
                     }
                 }
             }
-            if (TextUtils.isEmpty(key)) {
+            if (!TextUtils.isEmpty(key)) {
                 tableMap.remove(key);
             }
         }
