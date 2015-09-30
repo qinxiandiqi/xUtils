@@ -21,6 +21,9 @@ local.properties
 # IDEA project files
 *.iml
 .idea/
+.gradle/
+build/
+*/build
 
 # others
 ant.properties
